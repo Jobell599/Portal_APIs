@@ -1,0 +1,65 @@
+    /* esta es la estructura de la animación fade-in */
+    .fade-in {
+      animation: fadeIn 1s ease-in both;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .passport-photo {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #0d6efd;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 15px;
+    }
+
+    h2, h3, h4 {
+      font-weight: 600;
+      color: #0d6efd;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      border-radius: 12px;
+    }
+
+    .btn-primary {
+      background-color: #0d6efd;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .btn-primary:hover {
+      background-color: #0b5ed7;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .alert {
+      border-radius: 8px;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    body {
+      background-color: #f8f9fa;
+    }
+    
